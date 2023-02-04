@@ -7,7 +7,7 @@ function getInput () {
     return INPUT.split('');
 }
 
-// Iterate through BIN_SUBSTRINGS array using conversion formula
+// Iterate through BIN_Array using conversion formula
 function convertInput () {
     const BIN_ARRAY = getInput();
     for (let i = 0; i < BIN_ARRAY.length - 1;) {
