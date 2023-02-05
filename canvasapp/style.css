@@ -1,0 +1,10 @@
+canvas {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-image: url('images/hellokittybg.jpg') 30;
+    border-image-source: url('images/hellokittybg.jpg') 30;
+}

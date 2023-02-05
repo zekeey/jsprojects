@@ -4,19 +4,13 @@ let convertedBin = 0;
 // get input from user
 function getInput () {
     const INPUT = prompt("Enter binary to be converted to decimal: ");
-    return INPUT.split('');
+    return INPUT;
 }
 
 // Iterate through BIN_Array using conversion formula
 function convertInput () {
-    const BIN_ARRAY = getInput();
-    for (let i = 0; i < BIN_ARRAY.length - 1;) {
-        for(let x = BIN_ARRAY.length - 1; x > 0; x--) {
-            let convertingBin = Math.round(parseInt(BIN_ARRAY[i], 2) * Math.pow(2, x));
-            convertedBin += convertingBin;
-            i++;
-        }
-    }
+    const bin = getInput();
+    let convertedBin = parseInt(bin, 2);
     console.log(`Binary converted to decimal: ${convertedBin}`);
 }
 
