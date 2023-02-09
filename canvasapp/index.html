@@ -6,37 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZEKEY AND KLYDE</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="grid-container">
+
+        <nav>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a href="previous.asp">&lt; Previous page</a></li>
+                    <li><a href="next.asp">Next page &gt;</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <canvas id="canvas"></canvas>
+
+        <div class="hotbar">
+            <div class="tool one">
+                <embed src="/images/mouse.svg" alt=""></embed>
+            </div>
+            <div class="tool two">
+                <embed src="/images/highlight.svg" alt=""></embed>
+            </div>
+            <div class="tool three">
+                <embed src="/images/draw.svg" alt=""></embed>
+            </div>
+            <div class="tool four">
+                <embed src="/images/erase.svg" alt=""></embed>
+            </div>
+            <div class="tool five">
+                <embed src="/images/bucket.svg" alt=""></embed>
+            </div>
+            <div class="tool six">
+                <embed src="/images/chat.svg" alt=""></embed>
+            </div>
+            <div class="tool seven">
+                <embed src="/images/settings.svg" alt=""></embed>
+            </div>
+        </div>
+
         <div class="border left"></div>
         <div class="border right"></div>
-        <div class="canvas-wrapper">
-
-            <canvas></canvas>
-            <div class="hotbar">
-                <div class="tool one">
-                    <embed src="/images/mouse.svg" alt=""></embed>
-                </div>
-                <div class="tool two">
-                    <embed src="/images/highlight.svg" alt=""></embed>
-                </div>
-                <div class="tool three">
-                    <embed src="/images/draw.svg" alt=""></embed>
-                </div>
-                <div class="tool four">
-                    <embed src="/images/erase.svg" alt=""></embed>
-                </div>
-                <div class="tool five">
-                    <embed src="/images/bucket.svg" alt=""></embed>
-                </div>
-                <div class="tool six">
-                    <embed src="/images/chat.svg" alt=""></embed>
-                </div>
-                <div class="tool seven">
-                    <embed src="/images/settings.svg" alt=""></embed>
-                </div>
-            </div>
-
+    </div>
 </body>
 </html>
